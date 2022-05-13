@@ -1,0 +1,33 @@
+:root{
+    --red:0; 
+    --green:0;
+    --blue:0;
+}
+
+body{
+    display: grid;
+    min-height: 100vh;
+    align-items: center;
+    justify-items: center;
+    background:rgb(var(--red), var(--green), var(--blue));
+}
+
+img{
+    width: 100%;
+}
+
+label{
+    width: 55vw;
+    margin-bottom: 1rem;
+    background: #fff;
+    border: 1pxsolid #000;
+    border-radius: .25rem;
+    padding: .5rem;
+    display: grid;
+}
+
+input{
+    margin-left: auto;
+    display: block;
+    width: 40vw;
+}

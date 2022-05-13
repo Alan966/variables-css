@@ -1,0 +1,53 @@
+/* Variables CSS (Custom Properties) 
+    Herencia 
+    Cascada 
+
+*/
+
+/* 
+Espacio en memoria que almacena un valor 
+Ese valor puede ser recuperado 
+
+*/
+
+/* El nivel mas alto es root 
+  Se usan a la derecha de los dos puntos 
+*/
+/* :root{
+    --color: red; 
+    --link-color:green;
+    --background-color:blue;
+}
+body{
+    background: var(--background-color, --color);
+}
+
+html{
+    color: var(--color);
+}
+a{
+    color: var(--link-color)
+}
+p{
+    color: var(--color)
+} */
+
+/* Clase numero 2: -SCOPE  
+La Variables CSS tiene scope de DOM 
+*/
+
+:root{
+    --main-color:blue;
+}
+
+p{
+    color: var(--color);
+}
+
+article{
+    --color: red;
+} 
+
+section{
+    --color:green;
+}
